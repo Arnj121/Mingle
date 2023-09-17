@@ -1,0 +1,100 @@
+#mainfeed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+#refresh{
+    position: absolute;
+    height: 8%;
+    width: 8%;
+    top: 0;
+    left: 85%;
+    opacity: 0.8;
+}
+#refresh:hover{
+    opacity: 1;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+#reflbl{
+    position: absolute;
+    top: 0;
+    left: 80%;
+}
+#subscribers{
+    position: absolute;
+    top: 0;
+    height: 30%;
+    width: 60%;
+    left: 16%;
+    background-color: #01579b;
+    overflow-x: auto;
+}
+#categories{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40%;
+    width: 30%;
+}
+#catlbl{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#cattext{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    height: 15%;
+    width: 40%;
+    color: black;
+    text-align: center;
+}
+
+#catlink{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    height: 15%;
+    width: 40%;
+    color: black;
+    text-align: center;
+}
+
+#catimg{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    height:15%;
+    width: 40%;
+    color: black;
+    text-align: center;
+}
+
+#catvid{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    height: 15%;
+    width: 40%;
+    color: black;
+    text-align: center;
+}
+#cattext:hover{
+    cursor: pointer;
+}
+#catlink:hover{
+    cursor: pointer;
+}
+#catimg:hover{
+    cursor: pointer;
+}
+#catvid:hover{
+    cursor: pointer;
+}

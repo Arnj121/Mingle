@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+select p.username,p.emailid, (
+case when p.emailid in (select p.emailid from people p,followers f where p.emailid != 'lucifer@gmail.com' and p.emailid != f.following 	   and f.follower = 'lucifer@gmail.com') then '+follow'
+ELSE 'following'
+end) as follow from people p where p.emailid != 'lucifer@gmail.com'
+<input type="file" >
+</body>
+</html>
+
+select p.username,p.emailid, (
+case when p.emailid in (select p.emailid from people p,followers f where p.emailid != 'lucifer@gmail.com' and p.emailid != f.following and f.follower = 'lucifer@gmail.com') then 1
+ELSE 0
+end) as follow from people p where p.emailid != 'lucifer@gmail.com'

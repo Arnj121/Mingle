@@ -1,0 +1,58 @@
+#searchfollow{
+    position:absolute;
+    top: 15%;
+    left: 80%;
+    height: 65%;
+    min-width: 13%;
+    font-size: 70%;
+    background-color: white;
+    border-width: 1px;
+    color: #01579b;
+    border-radius: 2px;
+    font-weight: bold;
+    padding-right: 0.5%;
+    opacity: 0.8;
+    z-index: 3;
+
+}
+#searchfollow:hover{
+    opacity: 1;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+#susername{
+    position: absolute;
+    left: 2%;
+    top: 20%;
+    z-index: 3;
+    color: #01579b;
+}
+#searchbox{
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    z-index: 3;
+    border-width: 0;
+
+}
+#conbtn{
+    position:absolute;
+    top: 2%;
+    left: 0;
+    height: 95%;
+    width: 100%;
+    font-size: 100%;
+    background-color: white;
+    border-width: 0;
+    color: #01579b;
+    border-radius: 2px;
+    font-weight: bold;
+    padding-right: 0.5%;
+    opacity: 0.8;
+    z-index: 3;
+    text-align: start;
+}
+#conbtn:hover{
+    opacity: 1;
+    cursor: pointer;
+}

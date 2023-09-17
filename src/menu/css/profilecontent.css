@@ -1,0 +1,261 @@
+#profimg{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    height: 40%;
+    width: 35%;
+}
+.box1{
+    border-style: solid;
+    border-width: 0;
+    padding:0.5%;
+    text-align: left;
+    background-color: whitesmoke;
+}
+#userdiv{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    height: 2%;
+    min-width: 15%;
+
+}
+#emaildiv{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    height: 2%;
+    min-width: 15%;
+
+}
+#phonediv{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    height: 2%;
+    min-width: 15%;
+
+}
+#psswddiv{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    height: 2%;
+    min-width: 15%;
+
+}
+#birthdiv{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    height: 10%;
+    min-width: 30%;
+}
+#gendiv{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    height: 10%;
+    min-width: 30%;
+}
+#profdiv{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    height: 10%;
+    min-width: 30%;
+}
+#name{
+    position: absolute;
+    top: 20%;
+    padding-left: 1%;
+    border-width: 0;
+    background-color: whitesmoke;
+    color: #01579b;
+
+}
+#emailid{
+    position: absolute;
+    top: 20%;
+    padding-left: 1%;
+    border-width: 0;
+    background-color: whitesmoke;
+    color: #01579b;
+}
+#phno{
+    position: absolute;
+    top: 20%;
+    padding-left: 1%;
+    border-width: 0;
+    background-color: whitesmoke;
+    color: #01579b;
+
+}
+#password{
+    position: absolute;
+    top: 20%;
+    padding-left: 1%;
+    border-width: 0;
+    background-color: whitesmoke;
+    text-align: left;
+    color: #01579b;
+
+}
+#followers{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    padding-left: 1%;
+
+}
+#upvotes{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    padding-left: 1%;
+
+}
+#likes{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    padding-left: 1%;
+
+}
+
+#posts {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    padding-left: 1%;
+
+}
+#more{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    background-color: orange;
+    border-width: 0;
+    border-radius: 10px;
+    width: 5%;
+    opacity: 0.8;
+}
+#more:hover{
+    cursor: pointer;
+    opacity: 1;
+
+}
+#moreinfo{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    height: 30%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+#birth{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    border-width: 0;
+    width: 60%;
+    background-color: whitesmoke;
+    color: #01579b;
+}
+#gender{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    border-width: 0;
+    width: 60%;
+    background-color: whitesmoke;
+    color: #01579b;
+}
+#profess{
+    position: absolute;
+    top: 30%;
+    width: 60%;
+    left: 2%;
+    border-width: 0;
+    background-color: whitesmoke;
+    color: #01579b;
+}
+#useredit,#emailedit,#phoneedit,#psswdedit,#profedit,#genedit,#birthedit{
+    position: absolute;
+    top: 5%;
+    right: 0;
+    height: 90%;
+    width: 20%;
+    opacity: 0.8;
+}
+#profedit,#genedit,#birthedit{
+    right: 0;
+}
+#ptoggle{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    opacity: 0.8;
+}
+#ptoggle:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.01);
+
+}
+#useredit:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.01);
+}
+#emailedit:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.01);
+}
+#phoneedit:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.01);
+}
+#psswdedit:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.01);
+}
+#birthedit:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.01);
+}
+#profedit:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.01);
+}
+#genedit:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.01);
+}
+#savech{
+    opacity: 0.8;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    background-color: #f50057;
+    border-width: 0;
+    height: 4%;
+    width: 4%;
+    font-size: 130%;
+    color: whitesmoke;
+}
+#savech:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.01);
+}

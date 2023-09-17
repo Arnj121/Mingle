@@ -1,0 +1,115 @@
+#mheader{
+    height: 8%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#mwebsite{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    font-size: 200%;
+    color: orange;
+}
+#userhicon{
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    height: 50%;
+    width: 30%;
+}
+#user{
+    position: absolute;
+    top: 30%;
+    left: 83%;
+    color: orange;
+
+}
+#menuicon{
+    position: absolute;
+    top: 20%;
+    left: 97%;
+    height: 60%;
+    width: 3%;
+    z-index: 3;
+    background-color: #01579b;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+#menuicon:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+#menubar{
+    position: absolute;
+    top: 100%;
+    left: 85%;
+    font-size: 150%;
+    width: 15%;
+    height: 200%;
+    border-width: thin;
+    border-color: slategray;
+    border-style: solid;
+    z-index: 3;
+
+}
+#profile{
+    position: absolute;
+    top: 0;
+    border-bottom-width: 0;
+}
+#profile:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: slategray;
+    color: white;
+}
+#settings{
+    position: absolute;
+    top: 25%;
+    border-top-width: 0;
+    border-bottom-width: 0;
+
+}
+#settings:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: slategray;
+    color: white;
+}
+#myposts{
+    position: absolute;
+    top: 50%;
+    border-top-width: 0;
+    border-bottom-width: 0;
+
+}
+#myposts:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: slategray;
+    color: white;
+}
+#logout{
+    position: absolute;
+    top: 75%;
+    border-top-width: 0;
+
+}
+#logout:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: slategray;
+    color: white;
+}
+.commonmenu{
+    border-width: thin;
+    border-style: solid;
+    border-color: slategray;
+    background-color: white;
+    height: 25%;
+    width: 100%;
+    text-align: left;
+    padding-left: 4%;
+}

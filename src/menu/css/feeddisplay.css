@@ -1,0 +1,88 @@
+#indivfeed{
+    margin: 10px;
+    border-width: thin;
+    background-color: whitesmoke;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.4);
+    border-color: #f50057;
+    border-style: solid;
+    width: 60%;
+    z-index: 2;
+    padding-bottom: 5%;
+    min-height: 45%;
+}
+#upvoteimg{
+    position: absolute;
+    top: 84%;
+    left: 7%;
+    height: 10%;
+    width: 10%;
+
+}
+#downvoteimg{
+    position: absolute;
+    top: 84%;
+    left: 17%;
+    height: 10%;
+    width: 10%;
+}
+#likeimg{
+    position: absolute;
+    top: 84%;
+    left: 27%;
+    height: 10%;
+    width: 10%;
+}
+#uplbl{
+    position: absolute;
+    top: 84%;
+    left: 15%;
+}
+#downlbl{
+    position: absolute;
+    top: 84%;
+    left: 25%;
+}
+#likelbl{
+    position: absolute;
+    top: 84%;
+    left: 35%;
+}
+#typelbl {
+    position: absolute;
+    top: 0;
+    left: -10%;
+    border-style: solid;
+    border-width: 0;
+    background-color: #01579b;
+    color: white;
+    height: 10%;
+    width: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    z-index: 1;
+}
+#addelbl{
+    position: absolute;
+    top: 20%;
+    left: -25%;
+    border-style: solid;
+    border-width: 0;
+    background-color: #01579b;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    height: 10%;
+    width: 25%;
+    text-align: center;
+    z-index: 1;
+}
+#values{
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 45%;
+    padding: 3%;
+    overflow: auto;
+}

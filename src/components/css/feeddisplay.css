@@ -1,0 +1,186 @@
+#mindivfeed{
+    margin: 10px;
+    border-width: thin;
+    background-color: white;
+    /*box-shadow: 4px 4px 8px rgba(0,0,0,0.4);*/
+    border-color: #f50057;
+    border-style: solid;
+    width: 50%;
+    z-index: 2;
+    padding-bottom: 5%;
+}
+#musericon{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    height: 14%;
+    width: 8%;
+    border-radius: 50%;
+    border-width: medium;
+    border-color: white;
+
+    border-style: solid;
+}
+#musericon:hover{
+    cursor: pointer;
+    border-color: #f50057;
+
+}
+#mpostername{
+    position: absolute;
+    top: 6%;
+    left: 15%;
+}
+#comments{
+    position: absolute;
+    border-width: thin;
+    border-style: solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    overflow-y: hidden;
+    font-weight: bold;
+}
+#mupvoteimg{
+    position: absolute;
+    top: 84%;
+    left: 7%;
+    height: 10%;
+    width: 5%;
+    background-image: url("../../icons/caret-arrow-up.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border-width: 0;
+    opacity: 0.8;
+}
+#mupvoteimg:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.02);
+}
+#mdownvoteimg:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.02);
+}
+#mlikeimg:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.02);
+}
+#mdownvoteimg{
+    position: absolute;
+    top: 84%;
+    left: 20%;
+    height: 10%;
+    width: 5%;
+    background-image: url("../../icons/caret-down.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border-width: 0;
+
+
+}
+#mlikeimg{
+    position: absolute;
+    top: 84%;
+    left: 35%;
+    height: 10%;
+    width: 5%;
+    background-image: url("../../icons/like.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border-width: 0;
+}
+
+#muplbl{
+    position: absolute;
+    top: 84%;
+    left: 15%;
+}
+#mdownlbl{
+    position: absolute;
+    top: 84%;
+    left: 27%;
+}
+#mlikelbl{
+    position: absolute;
+    top: 84%;
+    left: 43%;
+}
+#mtypelbl {
+    position: absolute;
+    top: 5%;
+    left: 70%;
+    color: #01579b;
+    border-width: thin;
+    background-color: white;
+    border-style: solid;
+    border-color: #f50057;
+    font-style: italic;
+    width: 9%;
+    text-align: center;
+    z-index: 1;
+    font-size: 70%;
+}
+#maddedlbl{
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    z-index: 1;
+    font-size: 70%;
+}
+#mdata{
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    padding: 1%;
+    overflow: auto;
+    border-style: solid;
+    border-color: slategray;
+    border-width: thin;
+    border-radius: 1px;
+}
+#mhide{
+    position:absolute;
+    top: 85%;
+    left: 60%;
+    height: 9%;
+    width: 8%;
+    border-width: 0;
+    background-color: #f50057;
+    color: white;
+    opacity: 0.8;
+    font-size: 70%;
+}
+#mhide:hover{
+    opacity: 1;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+#follow{
+    position:absolute;
+    top: 85%;
+    left: 75%;
+    height: 10%;
+    min-width: 13%;
+    font-size: 70%;
+    background-color: white;
+    border-width: 1px;
+    color: #01579b;
+    border-radius: 2px;
+    font-weight: bold;
+    padding-right: 0.5%;
+    opacity: 0.8;
+
+}
+#follow:hover{
+    opacity: 1;
+    transform: scale(1.02);
+    cursor: pointer;
+}

@@ -1,0 +1,244 @@
+#textarea{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    height: 60%;
+    width: 50%;
+    overflow:auto;
+    opacity: 0.8;
+    background-color: white;
+    color: slategray;
+}
+#or1{
+    position: absolute;
+    top: 20%;
+    left: 58%;
+    height: 10%;
+    width: 10%;
+    font-size: 150%;
+}
+#imglink1{
+    position: absolute;
+    left: 75%;
+    top: 15%;
+    height: 20%;
+    width: 10%;
+    opacity: 0.8;
+}
+#imglink1:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.02);
+}
+#linklbl1{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+}
+#linkval{
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    height: 7%;
+    width: 30%;
+
+}
+#comment{
+    position: absolute;
+    top: 80%;
+    left: 2%;
+    height: 15%;
+    width: 50%;
+}
+#comments{
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    height: 35%;
+    width: 30%;
+}
+#textareaimg{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    height: 15%;
+    width: 90%;
+    overflow:auto;
+    opacity: 0.8;
+    background-color: white;
+    color: slategray;
+}
+#textareavid{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    height: 15%;
+    width: 90%;
+    overflow:auto;
+    opacity: 0.8;
+    background-color: white;
+    color: slategray;
+}
+#selectimg{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    height: 10%;
+    width: 10%;
+    opacity: 0.8;
+}
+
+#addlbl{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+#or{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    height: 10%;
+    width: 10%;
+    font-size: 150%;
+}
+#imglink{
+    position: absolute;
+    left: 65%;
+    top: 10%;
+    height: 20%;
+    width: 10%;
+}
+#linklbl{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+#imageinput{
+    display: none;
+}
+#selectvid{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    height: 10%;
+    width: 10%;
+    opacity: 0.8;
+}
+#videoinput{
+    display: none;
+}
+#selectimg:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.02);
+}
+#selectvid:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.02);
+}
+#imglink:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.02);
+
+}
+#textarea:focus{
+    color: black;
+}
+#textarea1:focus{
+    color: black;
+}
+#textarea2:focus{
+    color: black;
+}
+
+#mypost{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    height: 90%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.add{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    height: 40%;
+    width: 50%;
+    opacity: 0.8;
+}
+.add:hover{
+    transform: scale(1.01);
+    opacity: 1;
+    cursor: pointer;
+}
+#postbtn{
+    position: absolute;
+    top: 85%;
+    left: 80%;
+    height: 10%;
+    width: 10%;
+    opacity: 0.8;
+}
+#postbtn:hover, #cancel:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+#cancel{
+    position: absolute;
+    top: 85%;
+    left: 88%;
+    height: 10%;
+    width: 10%;
+    opacity: 0.8;
+
+}
+#postcontent{
+    border-color: slategray;
+    border-width: thin;
+    border-style: solid;
+    position: absolute;
+    height: 90%;
+    width: 25%;
+    top: 5%;
+    left: 5%;
+    background-color: #f50057;
+}
+
+#postimg{
+    border-color: slategray;
+    border-width: thin;
+    border-style: solid;
+    position: absolute;
+    height: 90%;
+    width: 25%;
+    top: 5%;
+    left: 37%;
+    background-color: #f50057;
+
+}
+#postvid{
+    border-color: slategray;
+    border-width: thin;
+    border-style: solid;
+    position: absolute;
+    height: 90%;
+    width: 25%;
+    top: 5%;
+    left: 68%;
+    background-color: #f50057;
+
+}
+#postsomething{
+    position: absolute;
+    top: 92%;
+    left: 5%;
+    height: 5%;
+    width: 5%;
+    background-color: white;
+    border-width: thin;
+    border-color: slategray;
+
+}

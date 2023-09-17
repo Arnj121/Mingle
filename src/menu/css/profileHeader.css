@@ -1,0 +1,15 @@
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5%;
+    background-color: #01579b;
+    width: 100%;
+}
+#back{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    height: 50%;
+    width: 5%;
+}

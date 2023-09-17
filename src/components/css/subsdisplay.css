@@ -1,0 +1,38 @@
+#indivsubs{
+    height: 95%;
+    width: 20%;
+    overflow-x: auto;
+    background-color: #01579b;
+}
+#subbtn{
+    height: 65%;
+    width: 55%;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    border-color: #f50057;
+    border-radius: 50%;
+    background-color: #01579b;
+    border-width: 2px;
+    background-image: url("../../icons/user.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#subbtn:hover{
+    cursor: pointer;
+    border-color: white;
+}
+
+#sublbl{
+    position: absolute;
+    top: 80%;
+    left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 70%;
+    color: white;
+    overflow: hidden;
+
+}
